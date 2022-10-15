@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: Helvetica, Arial, sans-serif;
+}
+body {
+	background-color: rgb(240, 242, 245);
+}
+h2.desc {
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	width: 500px;
+	height: 84px;
+	padding: 0;
+	padding-bottom: 20px;
+	font-size: 28px;
+	font-weight: 400;
+	word-wrap: break-all;
+	margin-right: 0;
+}
+img.logo {
+	width: 301px;
+	height: 106px;
+	position: relative;
+	right: 30px;
+	top: 12px;
+}
+div.container {
+	margin-left: 270px;
+	margin-top: 165px;
+}
+div.form {
+	background-color: white;
+	width: 396px;
+	height: 350px;
+	float: right;
+	margin-right: 250px;
+	position: relative;
+	bottom: 225px;
+	right: 20px;
+	border-radius: 10px;
+	margin-right: 270px;
+	padding-bottom: 24px;
+	box-shadow: 0px 2px 40px -25px black;
+}
+#email {
+	width: 364px;
+	height: 52px;
+	border-radius: 5px;
+	padding: 15px;
+	margin: 20px;
+	font-size: 17px;
+	margin-bottom: 10px;
+	margin-left: 16px;
+	border-color: rgb(221, 223, 226);
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 16px;
+}
+#pass {
+	width: 364px;
+	height: 52px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: rgb(221, 223, 226);
+	border-style: solid;
+	padding: 15px;
+	margin: 20px;
+	margin-top: 0;
+	font-size: 17px;
+	margin-left: 16px;
+	margin-bottom: 16px;
+}
+button#login {
+	width: 332px;
+	height: 48px;
+	background-color: #166fe5;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 6px;
+	border: none;
+	margin-left: 16px;
+	padding: 0 16px;
+	box-sizing: content-box;
+	cursor: pointer;
+}
+button#login:hover {
+	background-color: rgb(12, 105, 226);
+}
+a.forgot {
+	text-align: center;
+	color: rgb(24, 119, 242);
+	text-decoration: none;
+	font-family: inherit;
+	font-size: 14px;
+	display: block;
+	margin-top: 18px;
+}
+a.forgot:hover {
+	text-decoration: underline;
+}
+div.line {
+	border-top: solid 1px rgb(218, 221, 225);
+	margin: 20px 16px;
+}
+button#create {
+	width: auto;
+	height: 48px;
+	font-size: 17px;
+	font-weight: 700;
+	color: white;
+	background-color: #42b72a;
+	border-radius: 6px;
+	border: none;
+	box-sizing: content-box;
+	padding: 0 16px;
+	margin-left: 100px;
+	margin-top: 7px;
+	cursor: pointer;
+}
+button#create:hover {
+	background-color: #1ca700;
+}
+a.page {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	position: relative;
+}
+div.pageContainer {
+	float: right;
+	position: relative;
+	top: 150px;
+	left: 330px;
+	font-size: 14px;
+}
